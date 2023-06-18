@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RESGATE</title>
+</head>
+<body>
+<div id="container">
+    <div id="fundoGame">
+        <div id="inicio" onclick="Start()">
+            <h1>RESGATE</h1>
+            <p>
+                Utilize a telca W para movimentar o Helicoptero para cima, a tecla S para movimenta-lo para baixo e D para atirar
+            </p>
+            <p>
+                Clique aqui para iniciar
+            </p> 
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js.js"></script>
+<script type="text/javascript" src="jquery-collision.min.js"></script>
+<audio src="som.mp3" preload="auto" id="somDisparo"></audio>
+<audio src="explosao.mp3" preload="auto" id="somExplosao"></audio>
+<audio src="musica_fundo.mp3" preload="auto" id="musica"></audio>
+<audio src="gameover.mp3" preload="auto" id="somGameover"></audio>
+<audio src="perdido.mp3" preload="auto" id="somPerdido"></audio>	
+<audio src="resgate.mp3" preload="auto" id="somResgate"></audio>
+</body>
+</html>
